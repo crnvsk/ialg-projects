@@ -5,8 +5,9 @@ using namespace std;
 int main(){
 
     char palavra[30], letra[1], oculta[30];
-    int tamanho, i, chances, acertos;
+    int tamanho, i, chances, acertos, outro;
     bool acerto = false;
+
 
     chances = 5;
     tamanho = 0;
