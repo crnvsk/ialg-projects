@@ -1,0 +1,5 @@
+#executaveis
+*.exe
+
+#code
+.vscode
