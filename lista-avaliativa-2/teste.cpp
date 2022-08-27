@@ -1,17 +1,18 @@
 #include <iostream>
+#include <ctype.h>
 
 using namespace std;
 
 int main(){
-    
-    int vetor[10];
+    char str[] = "Coding is fun";
+    int i, count = 0;
 
-    for(int i=0; i<10; i++){
-        cin >> vetor[i];
-    }
-    for(int i=0; i<10; i++){
-        cout << vetor[i] << " ";
-    }
+   for(i=0; str[i]!='\0';i++) {
+      if(isspace(str[i]))
+      count++;
+   }
+
+   cout<<"Number of spaces in the string are "<<count;
 
     return 0;
 }
